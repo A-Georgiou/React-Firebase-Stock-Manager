@@ -70,7 +70,7 @@ class Home extends React.Component{
     return (
       <div className="app-handler">
         <Navbar />
-        <div className="todo-app container">
+        <div className="stock-app container">
           <h1 className="center white-text">Stock Tracker</h1>
           <Items items={this.state.items} deleteItem={this.deleteItem} updateItem={this.updateItem}/>
           <Additem addItem={this.addItem}/>
