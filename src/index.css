@@ -13,19 +13,19 @@ code {
     monospace;
 }
 
-.todo-app{
+.stock-app{
   width:45em;
   font-family: 'Montserrat', sans-serif;
 }
 
 
-.add-todo-form{
+.add-stock-form{
   display:block;
   text-align: center;
 
 }
 
-.add-todo-form > form{
+.add-stock-form > form{
   display: inline-block;
   text-align: left;
   width: 65%;
@@ -36,7 +36,7 @@ code {
   border-width: .5em;
 }
 
-.add-todo-form > form > label{
+.add-stock-form > form > label{
   color: white;
 }
 
@@ -156,12 +156,12 @@ nav{
 }
 
 @media only screen and (max-width: 600px) {
-  .todo-app{
+  .stock-app{
     width: 100%;
   }
 
   
-  .add-todo-form > form{
+  .add-stock-form > form{
     width: 90%;
   }
 
