@@ -1,15 +1,19 @@
 {
+  "homepage":
+	"https://a-georgiou.github.io/React-Firebase-Stock-Management/",
   "name": "stock-management",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "firebase": "^7.2.1",
+    "gh-pages": "^2.1.1",
     "re-base": "^4.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
+	"deploy": "yarn build && gh-pages 0 -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
